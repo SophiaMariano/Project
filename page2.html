@@ -4,36 +4,66 @@
     <title>Air Disaster</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      body {
-        font-family: sans-serif;
+      .causes{
+        display: inline-block;
+        margin: 10px;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-gap: 20px; 
+        border-radius: 10px;
+        width: 44%; 
+        padding: 30px;
+        background-color: #D9CAB3;
+        float: left;
+        line-height: 30px;
+        font-family: trebuchet, calibri, san-serif;
+        font-size: 13pt;
       }
-      .cae{
-        margin: 50px;
+      .effects{
+        display: inline-block;
+        margin: 10px;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-gap: 20px; 
+        border-radius: 10px;
+        width: 44%; 
+        padding: 30px;
+        background-color: #D9CAB3;
+        float: right;
+        line-height: 30px;
+        font-family: trebuchet, calibri, san-serif;
+        font-size: 13pt;
       }
       li{
         text-align: justify;
       }
+      img{
+        width: 100%;
+        height: fit-content;
+      }
     </style>
   </head>
   <body>
-    <div class="header">
-        <h1>Air Disaster</h1>
+      <div class="header">
+          <h1 class="header-text">Air Disaster</h1>
       </div>
       <div class="topnav">
         <a class="active" href="index.html">Home</a>
         <a href="page2.html">Causes and Effects</a>
         <a href="page3.html">What Can We Do?</a>
+        <a href="page4.html">Air Pollution Stories</a>
+        <a href="page5.html">Resources</a>
       </div>
-    <div class="cae">
+    <div class="causes">
       <h1>Causes of Air Pollution</h1>
       <ol>
         <li>The burning of fossil fuels produces harmful greenhouse gasses that pollute the environment. Examples of these greenhouse gasses include carbon monoxide and nitrogen oxide.</li>
         <li>Vehicles also cause air pollution. They produce gasses which contribute to the production of greenhouse gasses. Hence, areas with more cars are more polluted and have low air quality.</li>
         <li>Mismanagement of waste can also cause air pollution. If not disposed properly, different types of waste can spread bacteria and bad odor. Additionally, plastics and other materials can produce harmful chemicals. This can cause air pollution. </li>
       </ol>
-      <img src="Trash.jpg" alt="Streets with trash"/>
+      <img src="https://miro.medium.com/max/1400/1*sk1HjI3mE0RNwQpqgzDXUw.jpeg" alt="Streets with trash"/>
     </div>
-    <div class="cae">
+    <div class="effects">
       <h1>Effects of Air Pollution</h1>
       <ol>
         <li>Air pollution can cause respiratory diseases. This is because the quality of the air we breathe is reduced. Harmful chemicals and other pollutants that enter our lungs may cause respiratory diseases. 
@@ -43,7 +73,7 @@
         <li>Aside from humans, animals are also affected. They also need good air quality to survive. Thus, if air quality is reduced, their habitat may be ruined and they would be forced to migrate and find a new home. 
 </li>
       </ol>
-      <img src="Lungs.jpg" alt="Lungs"/>
+      <img src="https://www.boldsky.com/img/2019/10/images1-1571480917.jpg" alt="Lungs"/>
     </div>
   </body>
 </html>
