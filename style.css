@@ -1,9 +1,12 @@
-
+        body{
+          overflow-x: hidden;
+        }
         .topnav {
-          background-color: #6D9886;
+          background-color: #30475E;
           overflow: hidden;
           padding:0px;
           width:100%;
+          box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
         }
         .topnav a {
          float: left;
@@ -34,7 +37,7 @@
           position: sticky;
           background-attachment: local ;
           background-size:cover;
-          overflow-x:hidden;
+          overflow-x: hidden;
         }
         .header-text{
           opacity: 1;
