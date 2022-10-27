@@ -3,6 +3,7 @@
   <head>
     <title>Air Disaster</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <style>
       .intro{
         text-align: center;
@@ -19,6 +20,7 @@
         width: 25%;
         height: 500px;
         float: left;
+        transition: transform .2s;
       }
       .allsolutions{
         display: flex;
@@ -32,9 +34,19 @@
         color: white;
         text-align: justify;
       }
+       .sol:hover{
+        transform: scale(1.2);
       }
-      .allsolutions .sol:hover{
-        transform: scale(1.5);
+      .sol img{
+        width: 80%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.5;
+      }
+      .sol img:hover{
+        opacity: 1;
       }
     </style>
   </head>
@@ -57,14 +69,17 @@
         <div class="sol">
         <h3>Reduce the Use of Vehicles</h3>
         <p>A lot of vehicles produce tons of greenhouse gases that pollute the environment. In order to reduce the pollution caused by this, you could avoid the use of vehicles. If possible, walk or ride a bicycle. These are more environmental friendly ways to travel. Furthermore, if you need to go somewhere a bit far, you could take public transportation. By doing so, there would be less vehicles contributing to air pollution.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/I-80_Eastshore_Fwy.jpg" alt="Vehicles"/>
       </div>
     <div class="sol">
       <h3>Practice Proper Waste Management</h3>
       <p>Another cause of air pollution is improper waste management. Streets, rivers, and landfills are occupied by hills of garbage due to failure to manage waste properly. By practicing proper segregation and by reducing, reusing, and recycling your waste, this can be avoided. </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/NEA_recycling_bins%2C_Orchard_Road.JPG" alt="Waste Management"/>
     </div>
     <div class="sol">
       <h3>Conserve Electricity</h3>
       <p>When you consume electricity, fossil fuels are being emitted and this contributes to air pollution. Another thing you can do it reduce your electrical consumption. Turn off the lights and other appliances if not being used. </p>
+      <img src="https://assets.taraenergy.com/wp-content/uploads/2021/01/energy-conservation-definition-lightbulb-energy-image.jpg" alt="Conservation of energy"/>
     </div>
       </div>
   </body>
