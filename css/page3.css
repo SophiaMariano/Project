@@ -61,3 +61,46 @@
         body{
           background-color:#F6F6F6;
         }
+      .intro{
+        text-align: center;
+        font-family: calibri, trebuchet, sans-serif;
+      }
+      .sol{
+        display: inline-block;
+        background-color: #5F6769;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 5px;
+        font-family: calibri, trebuchet, sans-serif;
+        box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+        width: 25%;
+        height: 500px;
+        float: left;
+        transition: transform .2s;
+      }
+      .allsolutions{
+        display: flex;
+        justify-content: center;
+      }
+      .sol h3{
+        color: white;
+        text-align: center;
+      }
+      .sol p{
+        color: white;
+        text-align: justify;
+      }
+       .sol:hover{
+        transform: scale(1.2);
+      }
+      .sol img{
+        width: 80%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.5;
+      }
+      .sol img:hover{
+        opacity: 1;
+      }
