@@ -66,3 +66,40 @@ article h1, article p{
   justify-content: center;
   font-family: calibri, trebuchet, sans-serif;
 }      
+.reasons{
+  display: inline-block;
+  background-color: #D8D8D8;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-family: calibri, trebuchet, sans-serif;
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  width: 25%;
+  height: 200px;
+  float: left;
+  transition: transform .2s;
+  text-align: justify;
+}
+.reasonscontainer{
+  display:flex;
+  justify-content: center;
+}
+.sources{
+  font-family: calibri, trebuchet, sans-serif;
+  text-align: center;
+  margin: 10px;
+  background-color: #30475E;
+  padding: 10px;
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  color: white;
+  height: 200px;
+  overflow-y: scroll;
+}
+.sources p{
+  font-family: calibri, trebuchet, sans-serif;
+  text-align: center;
+  margin: 10px;
+  background-color: #30475E;
+  padding: 10px;
+  color: white;
+}
